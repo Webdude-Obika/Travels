@@ -1,0 +1,85 @@
+*{
+    font-family: cursive;
+}
+
+
+.bd-example  img{
+    height: 500px;
+
+}
+ .first-blog i{
+     float: right;
+     
+ }
+ .second-blog i{
+     float:right;
+ }
+ .third-blog i{
+     float: right;
+ }
+/* .first-font a{
+    color:white ;
+} */
+.section-one {
+    background-image: url(./images/bg-header-desktop.png);
+    height: 5em;
+}
+.section-two {
+    background-image: url(./images/bg-header-desktop.png);
+    height: 5em;
+}
+
+
+#p1{
+    margin-top: 600px;
+    font-size: 25px;
+}
+#pop-up{
+    transform-origin: 10px 10px;
+    margin-top: -700px;
+    border-radius: 50%;
+    animation: drop 0.5s ease forwards;
+}
+
+@keyframes drop{
+    0%{
+        opacity: 0;
+    }70%{
+        transform: translateY(700px);
+    }100%{
+        transform: translateY(650px);
+        opacity: 1;
+    }
+}
+
+
+#form{
+    margin-top: 200px;
+}
+
+#img-pop{
+    transform-origin: 10px 10px;
+    margin-top: -700px;
+    margin-left: 80px;
+    border-radius: 50%;
+    animation: drop 0.5s ease forwards;
+}
+
+@keyframes drop{
+    0%{
+        opacity: 0;
+    }70%{
+        transform: translateY(700px);
+    }100%{
+        transform: translateY(650px);
+        opacity: 1;
+    }
+}
+
+#car-img{
+    height: 800px;
+}
+
+#anchor{
+    text-decoration: none;
+}
