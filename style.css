@@ -3,8 +3,43 @@
     margin: 0px;
 }
 
-.list-socials{
-    list-style-type: none;
+/* .list-socials{
     display: inline-block;
-    margin: ;
+    border: 2px solid green;
+    width: 29px;
+} */
+.navbar-social-media{
+    border: 2px solid green;    
+}
+
+.a-socials{
+    list-style-type: none;
+    border: 2px solid blue;
+    /* margin-top: 7px; */
+}
+.img-socials{
+    padding-top: 5px;
+    border: 2px solid red;
+}
+
+.overlay{
+    background-color: #000;
+    width: 20%;
+    height: 100%;
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 28em;
+}
+.carousel-item active{
+    width: 100%!important;
+    height: 28em;
+    background-position: center;
+}
+
+.carousel-caption{
+    top:15em;
+    margin-bottom: 3em;
+    color: lawngreen;
 }
